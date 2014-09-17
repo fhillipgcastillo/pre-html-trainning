@@ -1,0 +1,18 @@
+#MainTitle{
+	text-align: center;
+}
+
+
+tr td{
+	border: 1px solid black;
+}
+tr th{
+	
+	background-color: grey;
+}
+td.City{
+	text-align: left;
+}
+tr td{
+	text-align: right;
+}

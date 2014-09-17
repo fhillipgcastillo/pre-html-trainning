@@ -1,0 +1,67 @@
+body {
+  font-family:     Verdana, Geneva, Arial, sans-serif;
+  font-size:       small;
+}
+
+h1, h2 {
+  font-weight:     normal;
+  color:           #cc6600;
+  border-bottom:   thin dotted #888888;
+}
+
+h1 {
+  font-size:       170%;
+}
+
+h2 {
+  font-size:       130%;
+}
+
+blockquote {
+  font-style:      italic;
+}
+
+table{
+	margin: auto 20px;
+	border: thin solid black;
+	caption-side: bottom;
+	/*border-spacing: 0px;*/
+	border-collapse: collapse;
+}
+
+caption{
+	font-family: italic, Times,monospace;
+	padding-top: 8px;
+}
+
+.TColumnsCenter{
+	text-align: center;
+}
+
+.TColumnsRight{
+	text-align: right;
+}
+
+td, th {
+	border: thin dotted gray;
+	padding: 5px;
+
+}
+
+th{
+	background-color: #c60;
+}
+
+.cellcolor{
+	background-color: #fcba7a;
+}
+
+td table tr th{ /*or like this table table th*/
+	background-color: white;
+}
+li{
+	list-style-type: square;
+	list-style-image: url(images/backpack.gif);
+	padding-top: 5px;
+	margin-left: 20px;
+}
